@@ -1,6 +1,6 @@
 # File names for data storage
-bank_data_file = "Bank Data.txt"
-transaction_log_file = "Transaction Log.txt"
+bank_data_file = "Bank_Data.txt"
+transaction_log_file = "Transaction_log.txt"
 
 # Function to display the current balance
 def display_balance():
@@ -67,7 +67,9 @@ while True:
         print("Invalid choice. Please enter 'Yes' or 'No.")
 
 # Display transaction history from the text file
-print("Transaction History:")
+print("Transaction_log.txt:")
 with open(transaction_log_file, "r") as transaction_file:
     transaction_history = transaction_file.read()
     print(transaction_history)
+# Display the final balance
+display_balance()

@@ -1,0 +1,4 @@
+Deposit: +R200.00
+Withdrawal: -R100.00
+Deposit: +R2000.00
+Withdrawal: -R200.00
